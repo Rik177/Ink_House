@@ -1,0 +1,207 @@
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: Raleway, sans-serif;
+}
+
+.header {
+    height: 100px;
+    background-color: #E1EDE6;
+}
+
+.header__stuff {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 50px;
+    font-size: 20px;
+    color: #2C2D35;
+    padding: 0 5px;
+    transition: 0.2s;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+
+.header__nav-item:nth-child(3) {
+    text-shadow: 0px 4px 5px #999999;
+}
+
+.header__nav-item:hover {
+    color: #598D66;
+}
+
+.header__nav-item:active {
+    color: #598D66;
+    background-color: #D4E8D9;
+}
+
+.header__nav-item:focus {
+    color: #376B44;
+}
+
+.header__nav-link svg {
+    stroke: #2C2D35;
+}
+.header__nav-link svg:hover {
+    stroke: #598D66;
+}
+.header__nav-link svg:active {
+    stroke: #376B44;
+}
+
+
+/*---------MAIN-----------*/
+
+.main__mainsection {
+    display: flex;
+    align-items: center;
+}
+
+.main__birdimage {
+    margin-right: 30px;
+}
+
+.main__mainsection-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.main__mainsection-title span {
+    color: #598D66
+}
+
+.main__mainsection-parag {
+    font-size: 18px;
+    color: #86928B
+}
+
+.main__mainsection-button {
+    margin-top: 60px;
+    color: #598D66;
+    width: 227px;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.main__mainsection-button:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.main__mainsection-button:active {
+    background-color: #376B44;
+    color: #FFFFFF;
+}
+
+.main__mainsection-button:focus {
+    background-color: #D4E8D9;
+    color: #598D66;
+}
+
+/*---------------------------*/
+
+.main__reproductions-titleandbuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.reproductions__button {
+    width: 126px;
+    height: 43px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #D4E8D9;
+    color: #2C2D35;
+}
+
+.reproductions__button:focus {
+    background-color: #376B44;
+    color: #F4F6F5;
+}
+
+.reproductions__title {
+    font-size: 40px;
+    color: #2C2D35;
+}
+
+.reproductions__items-france {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.france__items {
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+    padding: 20px 20px 20px 20px;
+}
+
+.france__items img{
+    margin-bottom: 20px;
+}
+
+.france__items figcaption {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.france__itemtitle {
+    color: #2C2D35;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.france__itemmaterial {
+    color: #2C2D35;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.france__cost {
+    color: #598D66;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.france__addtocart {
+    width: 310px;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #598D66;
+    border: 1px solid;
+    font-size: 20px;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+.france__addtocart:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.france__addtocart:active {
+    background-color: #376B44;
+    color: #FFFFFF;
+}
+
+.france__addtocart:focus {
+    background-color: #D4E8D9;
+    color: #598D66;
+}
